@@ -1,11 +1,11 @@
 #include "RunSession.h"
-#include "FixedInputGenerator.h"
+#include "RandomInputGenerator.h"
 #include "SimpleScoringRule.h"
 #include "SimpleRewardRule.h"
 
 int main() {
 
-    FixedInputGenerator generator;
+    RandomInputGenerator generator;
     SimpleScoringRule scoring;
     SimpleRewardRule reward;
 
